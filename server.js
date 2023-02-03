@@ -1,11 +1,22 @@
 const http=require('http');
 
-const routes=require('./routes');
+const express =require('express');
+
+const app=express(); 
+
+// const routes=require('./routes');
 
 // function rqListner(req,res){
 
 // }
 
-const server=http.createServer(routes.handler);
+app.use((req,res,next)=>{
+next();
+});
 
-server.listen(4000);
+app.use((req,res,next)=>{
+// res.send("<h1>Mohit koolwal</h1>");
+res.send( { key1: "value" })
+});
+
+app.listen(3000);
