@@ -1,0 +1,24 @@
+{
+  "name": "node-firstapp",
+  "version": "1.0.0",
+  "description": "Complete Nodejs guide",
+  "main": "first-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "start-server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohit27mk/node-Firstapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohit27mk/node-Firstapp/issues"
+  },
+  "homepage": "https://github.com/Mohit27mk/node-Firstapp#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
