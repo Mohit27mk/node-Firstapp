@@ -1,0 +1,125 @@
+body {
+    background-image:url(./call-center-phone-system-576x443.png);
+    background-repeat: no-repeat;
+background-size: 100%;
+    
+  }
+  h2{
+     color: orange;
+     
+  }
+  .hou{
+    padding-left: 50px;  
+    padding-top: 20px;
+   
+  }
+  .hou img{
+      width: 25px;
+       float: left;
+      padding-right: 7px;
+      padding-top: 21px;
+  }
+  .hoi{ 
+      float: left;
+    text-decoration-line: underline;
+  }
+  .column {
+float: left;
+}
+
+.left, .right {
+width: 22%;
+}
+
+.but1{
+float: left;
+padding: 22px;
+
+}
+.b1{
+width: 130px;
+background-color: orange;
+color: white;
+border: none;
+height: 30px;
+border-radius: 10px;
+}
+.b2{
+width: 130px;
+background-color: orange;
+color: white;
+border: none;
+height: 30px;
+border-radius: 10px;
+}
+.but2{
+padding: 22px;
+
+}
+.middle {
+width: 50%;
+background-color: white;
+border-radius: 20px;
+border: 2px solid orange;
+height: 480px;
+}
+.call{
+
+padding-left:300px; 
+padding-top: 20px;
+
+}
+#overlay {
+
+position: absolute;
+z-index:100;
+font-size: 28px;
+color: orange;
+padding-left: 3px;
+font-weight: bolder;
+padding-top: 37px;
+}
+.slot{
+color: lightgray;
+font-size: 80px;
+font-style: italic;
+position: absolute;
+}
+.rep{
+padding-top: 100px;
+text-align: center;
+font-size: 20px;
+
+}
+.fo{
+padding-left: 10px;
+}
+#fname{
+height: 25px;
+width: 98%;
+}
+#email{
+height: 25px;
+width: 98%;
+}
+#number{
+height: 25px;
+width: 98%;
+}
+#date{
+width: 49%;
+height: 25px;
+}
+#time{
+height: 25px;
+width: 48%;
+}
+.but button{
+background-color: orange;
+border: none;
+color: white;
+border-radius: 10px;
+font-size: 20px;
+height: 40px;
+width: 99%;
+}

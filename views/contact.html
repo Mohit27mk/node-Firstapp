@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAV</title>
+     <link rel="icon" type="images/x-icon" href="./accept-call-icon.webp" />
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+          <ul class="main-header__item-list">
+            <li class="main-header__item">
+              <a  href="/shop">Shop</a>
+            </li>
+            <li class="main-header__item">
+              <a href="/admin/add-product">Add Product</a>
+            </li>
+            <li class="active" class="main-header__item">
+                <a href="/contact">Contact</a>
+              </li>
+          </ul>
+        </nav>
+      </header>
+    <div class="row">
+    <div class="column hou left">
+         <img src="./accept-call-icon.webp" alt="call-icon"> 
+       <div class="hoi"><h2>YAV</h2></div>
+    </div>
+    <div class="column middle">
+      <div class="call">
+        <div id='overlay'>Book a Slot</div>
+        <div id="slo" class="slot">
+            Call
+        </div>
+        
+      </div>
+      <div class="rep">
+        Book a slot our  representative will call you within an hour
+    </div>
+     <hr>
+     <form class="fo" action="/contact" method="POST" >
+        <div>
+        <label for="fname">Name:</label>
+        <input type="text" id="fname" name="fname">
+    </div>
+  <br>
+  
+  <div>
+    <label for="email">Email:</label>
+    <br> 
+  <input type="email" id="email" name="email"><br><br>
+  </div>
+  <div>
+    <label for="phone">Phone no:</label>
+    <br> 
+  <input type="number" id="number" name="number"><br><br>
+  </div>
+  <div>
+    <label for="tcall">Time for call:</label>
+    <br> 
+    <input type="date" id="date" name="date" >
+  <input type="time" id="time" name="time" value="11:00" >
+  
+
+  </div>
+  <br>
+  <div class="but">
+    <button type="submit">Get a Call</button>
+  </div>
+     </form>
+    </div>
+    <div class="column  right">
+      <div class="but1">
+        <button class="b1">Button1</button>
+      </div>
+      <div class="but2">
+        <button class="b2">Button2</button>
+      </div>
+    </div>
+    </div>
+    <!-- <script>
+        function onSignup(event){
+            method:POST
+
+            event.preventDefault();
+            console.log(event.target.fname.value);
+        }
+    </script> -->
+</body>
+</html>
